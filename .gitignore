@@ -1,0 +1,25 @@
+# segredos e dados — nunca versionar
+.env
+*.token
+secrets/
+config.local.*
+data/
+logs/
+*.db
+
+# build
+node_modules/
+bin/
+servicos/*/bin/
+**/dist/*
+!**/dist/.gitkeep
+
+# python
+__pycache__/
+venv/
+.venv/
+
+# so
+Thumbs.db
+desktop.ini
+.DS_Store

@@ -1,0 +1,23 @@
+{
+  "name": "Pocket",
+  "short_name": "Pocket",
+  "description": "Hábitos, compromissos e lembretes",
+  "start_url": "/",
+  "scope": "/",
+  "display": "standalone",
+  "background_color": "#141a2e",
+  "theme_color": "#141a2e",
+  "orientation": "portrait",
+  "lang": "pt-BR",
+  "icons": [
+    { "src": "/icon-192.png", "sizes": "192x192", "type": "image/png", "purpose": "maskable any" },
+    { "src": "/icon-512.png", "sizes": "512x512", "type": "image/png", "purpose": "maskable any" }
+  ],
+  "shortcuts": [
+    {
+      "name": "Falar com o Pocket",
+      "url": "/?captura=voz",
+      "icons": [{ "src": "/icon-192.png", "sizes": "192x192", "type": "image/png" }]
+    }
+  ]
+}
